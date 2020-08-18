@@ -17,19 +17,19 @@ while True:
     valor = adc.read()
 
     if valor > 4096/3*2:
-display.fill(0)
-display.text('O',0,0,1)
-display.show()
+        display.fill(0)
+        display.text('O',0,0,1)
+        display.show()
     elif valor > 4096/3:
-display.fill(0)
-display.text('o',0,0,1)
-display.show()
+        display.fill(0)
+        display.text('o',0,0,1)
+        display.show()
     elif valor > 4096/3/2:
-display.fill(0)
-display.text('-',0,0,1)
-display.show()
+        display.fill(0)
+        display.text('-',0,0,1)
+        display.show()
     else:
-display.fill(0)
-display.show()
+        display.fill(0)
+        display.show()
 
     time.sleep_ms(100)
