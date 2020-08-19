@@ -16,20 +16,22 @@ display.show()
 while True:
     valor = adc.read()
 
-    if valor > 4096/3*2:
+    print(valor)
+
+    if valor > 3000:
         display.fill(0)
         display.text('O',0,0,1)
         display.show()
-    elif valor > 4096/3:
+    elif valor > 2000:
         display.fill(0)
         display.text('o',0,0,1)
         display.show()
-    elif valor > 4096/3/2:
+    elif valor > 1000:
         display.fill(0)
-        display.text('-',0,0,1)
+        display.text('(',0,0,1)
         display.show()
     else:
         display.fill(0)
+        display.text('|',0,0,1)
         display.show()
-
     time.sleep_ms(100)
