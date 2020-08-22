@@ -3,7 +3,7 @@
 ## bill of materials
 
 * ESP32
-* micrphone with MAX4466 amplyfier
+* micrphone with MAX4466 amplifier
 * 8x8 display with MAX7219 microcontroller
 
 ## connections
