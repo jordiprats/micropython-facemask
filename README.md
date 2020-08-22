@@ -3,10 +3,12 @@
 ## bill of materials
 
 * ESP32
-* micrphone with MAX4466 amplifier
+* microphone with MAX4466 amplifier
 * 8x8 display with MAX7219 microcontroller
 
 ## connections
+
+### 8x8 display
 
 | max7219 | esp32 |
 |---------|-------|
@@ -16,6 +18,7 @@
 | CS      | G5    |
 | CLK     | G18   |
 
+### microphone
 
 | max4466 | esp32 |
 |---------|-------|
