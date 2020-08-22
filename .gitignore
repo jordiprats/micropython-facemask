@@ -1,0 +1,7 @@
+venv
+*~
+*swp
+__pycache__/*
+demos/*
+micropython-max7219/*
+.vscode
