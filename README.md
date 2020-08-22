@@ -25,3 +25,7 @@
 | VCC     | 3.3V  |
 | GND     | GND   |
 | OUT     | G32   |
+
+## dependencies
+
+* [mcauser/micropython-max7219](https://github.com/mcauser/micropython-max7219)
